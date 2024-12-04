@@ -3,7 +3,7 @@
 {
 	"name": "C++",
 	"build": {
-		"dockerfile": "Dockerfile",
+		"dockerfile": "Dockerfile"
 		// Update 'VARIANT' to pick an Ubuntu OS version. Options: [bionic, focal]. Default: focal
 		// Update 'GCC_VER' to pick a gcc and g++ version. Options: [7, 8, 9, 10, 11]. Default: 11
 		// Update 'LLVM_VER' to pick clang version. Options: [10, 11, 12, 13]. Default: 13
@@ -14,11 +14,7 @@
 		// 	"LLVM_VER": "13"
 		// }
 	},
-	"runArgs": [
-		"--cap-add=SYS_PTRACE",
-		"--security-opt",
-		"seccomp=unconfined"
-	],
+	"runArgs": ["--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"],
 	// Set *default* container specific settings.json values on container create.
 	"customizations": {
 		"vscode": {
@@ -39,7 +35,15 @@
 				"mutantdino.resourcemonitor",
 				"ms-vscode.cpptools-extension-pack",
 				"github.vscode-github-actions",
-				"mhutchie.git-graph"
+				"mhutchie.git-graph",
+				"xaver.clang-format",
+				"Guyutongxue.cpp-reference",
+				"stkb.rewrap",
+				"vscode-icons-team.vscode-icons",
+				"bierner.github-markdown-preview",
+				"yzhang.markdown-all-in-one",
+				"biomejs.biome",
+				"redhat.vscode-yaml"
 			]
 		}
 	},
