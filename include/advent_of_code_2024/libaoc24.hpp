@@ -1,8 +1,8 @@
 #pragma once
 
-#include <advent_of_code_2024/sample_library_export.hpp>
+#include <advent_of_code_2024/libaoc24_export.hpp>
 
-[[nodiscard]] SAMPLE_LIBRARY_EXPORT int factorial(int) noexcept;
+[[nodiscard]] LIBAOC24_EXPORT int factorial(int) noexcept;
 
 [[nodiscard]] constexpr int factorial_constexpr(int input) noexcept
 {

@@ -1,2 +1,2 @@
-add_subdirectory(sample_library)
+add_subdirectory(libaoc24)
 add_subdirectory(console)

@@ -1,4 +1,4 @@
-#include <advent_of_code_2024/sample_library.hpp>
+#include <advent_of_code_2024/libaoc24.hpp>
 
 int factorial(int input) noexcept
 {
