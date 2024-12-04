@@ -6,18 +6,25 @@
 
 ## About
 
+## TODO:
+
+- [ ] Move tasks to Github project management
+- [ ] Install extensions for Github project mangagement in vscode
+
 ### Goals
 
 - [ ] Configure a nice dev environment
 - [ ] Learn about cmake
 - [ ] Explore C++ tooling
 - [ ] Explore C++ dependancy management
+- [ ] Explore Github project management
+- [ ] Explore git hooks
 - [ ] Have fun with AoC!
 
 ### Super Stretch Goals
 
-- [ ] Explore embedding uv package manager
 - [ ] Explore cross-platform
+- [ ] Explore embedding uv package manager
 - [ ] Explore embedding a rust library
 
 ## More Details
