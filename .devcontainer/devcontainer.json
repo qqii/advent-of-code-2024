@@ -37,7 +37,9 @@
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"mutantdino.resourcemonitor",
-				"ms-vscode.cpptools-extension-pack"
+				"ms-vscode.cpptools-extension-pack",
+				"github.vscode-github-actions",
+				"mhutchie.git-graph"
 			]
 		}
 	},
