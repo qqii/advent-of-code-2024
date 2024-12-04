@@ -7,7 +7,7 @@ project(CmakeConfigPackageTests LANGUAGES CXX)
 if(PROJECT_IS_TOP_LEVEL OR TEST_INSTALLED_VERSION)
   enable_testing()
 
-  find_package(advent_of_code_2024 CONFIG REQUIRED) # for intro, project_options, ...
+  find_package(advent_of_code_2024 CONFIG REQUIRED) # for aoc2024, project_options, ...
 
   if(NOT TARGET advent_of_code_2024_options)
     message(FATAL_ERROR "Required config package not found!")
@@ -20,13 +20,13 @@ endif()
 include(${Catch2_SOURCE_DIR}/extras/Catch.cmake)
 
 # Provide a simple smoke test to make sure that the CLI works and can display a --help message
-add_test(NAME cli.has_help COMMAND intro --help)
+add_test(NAME cli.has_help COMMAND aoc2024 --help)
 
 # Provide a test to verify that the version being reported from the application
 # matches the version given to CMake. This will be important once you package
 # your program. Real world shows that this is the kind of simple mistake that is easy
 # to make, but also easy to test for.
-add_test(NAME cli.version_matches COMMAND intro --version)
+add_test(NAME cli.version_matches COMMAND aoc2024 --version)
 set_tests_properties(cli.version_matches PROPERTIES PASS_REGULAR_EXPRESSION "${PROJECT_VERSION}")
 
 add_executable(tests tests.cpp)
