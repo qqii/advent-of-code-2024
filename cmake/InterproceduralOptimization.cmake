@@ -1,4 +1,4 @@
-macro(myproject_enable_ipo)
+macro(advent_of_code_2024_enable_ipo)
   include(CheckIPOSupported)
   check_ipo_supported(RESULT result OUTPUT output)
   if(result)

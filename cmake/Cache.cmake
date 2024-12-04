@@ -1,5 +1,5 @@
 # Enable cache if available
-function(myproject_enable_cache)
+function(advent_of_code_2024_enable_cache)
   set(CACHE_OPTION
       "ccache"
       CACHE STRING "Compiler cache to be used")

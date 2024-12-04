@@ -1,5 +1,5 @@
 function(
-  myproject_enable_sanitizers
+  advent_of_code_2024_enable_sanitizers
   project_name
   ENABLE_SANITIZER_ADDRESS
   ENABLE_SANITIZER_LEAK

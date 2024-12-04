@@ -1,7 +1,7 @@
 include(CheckCXXCompilerFlag)
 
 macro(
-  myproject_enable_hardening
+  advent_of_code_2024_enable_hardening
   target
   global
   ubsan_minimal_runtime)
