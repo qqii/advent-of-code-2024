@@ -1,5 +1,4 @@
-#ifndef advent_of_code_2024_CONFIG_HPP
-#define advent_of_code_2024_CONFIG_HPP
+#pragma once
 
 // this is a basic example of how a CMake configured file might look
 // in this particular case, we are using it to set the version number of our executable
@@ -12,5 +11,3 @@ inline constexpr int project_version_patch { @PROJECT_VERSION_PATCH@ };
 inline constexpr int project_version_tweak { @PROJECT_VERSION_TWEAK@ };
 inline constexpr std::string_view git_sha = "@GIT_SHA@";
 }// namespace advent_of_code_2024::cmake
-
-#endif
