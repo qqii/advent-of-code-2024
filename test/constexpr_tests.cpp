@@ -1,9 +1,7 @@
+#include <advent_of_code_2024/libaoc24.hpp>
 #include <catch2/catch_test_macros.hpp>
 
-#include <advent_of_code_2024/libaoc24.hpp>
-
-TEST_CASE("Factorials are computed with constexpr", "[factorial]")
-{
+TEST_CASE("Factorials are computed with constexpr", "[factorial]") {
   STATIC_REQUIRE(factorial_constexpr(0) == 1);
   STATIC_REQUIRE(factorial_constexpr(1) == 1);
   STATIC_REQUIRE(factorial_constexpr(2) == 2);

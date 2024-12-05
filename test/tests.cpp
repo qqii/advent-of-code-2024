@@ -1,11 +1,8 @@
-#include <catch2/catch_test_macros.hpp>
-
-
 #include <advent_of_code_2024/libaoc24.hpp>
+#include <catch2/catch_test_macros.hpp>
+#include <string_view>
 
-
-TEST_CASE("Factorials are computed", "[factorial]")
-{
+TEST_CASE("Factorials are computed", "[factorial]") {
   REQUIRE(factorial(0) == 1);
   REQUIRE(factorial(1) == 1);
   REQUIRE(factorial(2) == 2);
